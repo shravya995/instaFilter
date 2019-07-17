@@ -13,5 +13,5 @@ R,G,B=image_filter.split()
 #Merge the images
 im=Image.merge("RGB",(g,R,b))
 im.show()
-# im.save('1_merged.jpg')
+im.save('1_merged.jpg')
 
